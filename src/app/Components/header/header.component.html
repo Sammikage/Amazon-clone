@@ -1,0 +1,44 @@
+<div class="header">
+    <nav class="header-top">
+      <div class="header-menu">
+        <div class="header-icon" routerLink="/">
+          <mat-icon>menu</mat-icon>
+        </div>
+        <img routerLink="/"src="../assets/amazon2.png" class="header-logo">
+  
+        <div class="header-search">
+          <input type="text" class="header-input">
+  
+          <div class="header-search-icon">
+            <mat-icon>search</mat-icon>
+          </div>
+        </div>
+  
+        <div class="header-sign">
+          <span (click)="signOut()" class="header-item-top" *ngIf="auth.isloggedIn()">Hello, {{auth.getUser()}}</span>
+          <span routerLink="/login" class="header-item-top" *ngIf="!auth.isloggedIn()">Hello, Sign In</span>
+          <span class="header-item-bottom">Accounts & Lists</span>
+        </div>
+    
+        <div class="header-sign">
+          <span class="header-item-top">Returns</span>
+          <span class="header-item-bottom">Orders</span>
+        </div>
+  
+        <div routerLink="/checkout" class="header-cart">
+          <mat-icon>shopping_cart</mat-icon>
+          <p class="header-cart-number">{{shoppingCart.getCartLength()}}</p>
+        </div>
+  
+      </div>
+  
+      
+  
+    </nav>
+    <nav class="header-bottom">
+      <div class="header-bottom-location">
+        <span class="header-left-line-one">Delivery to</span>
+        <span class="header-left-line-two"><strong>Canada</strong></span>
+      </div>
+    </nav>
+  </div>

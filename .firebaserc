@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "myclone-14319": {
+      "hosting": {
+        "myamazon": [
+          "myclone-14319"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "myclone-14319"
+  }
+}

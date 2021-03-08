@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Xbox Series X",
+        "desc": "The latest product on the shelf. It has good specifications made for enjoyable user experience",
+        "price": 45000,
+        "image": "https://segaretro.org/images/3/3d/Xbox_Series_X.png",
+        "ratings": 5
+    },
+    {
+        "id": 2,
+        "title": "Playstation 5",
+        "desc": "The latest product on the shelf. It has good specifications made for enjoyable user experience",
+        "price": 48000,
+        "image": "https://www.citypng.com/public/uploads/preview/-11598236451d0gwytkgrv.png",
+        "ratings": 6
+    },
+    {
+        "id": 3,
+        "title": "Macbook Pro 2021",
+        "desc": "The latest product on the shelf. It has good specifications made for enjoyable user experience",
+        "price": 45300,
+        "image": "https://nupgrade.com/wp-content/uploads/2020/05/The-expected-14-inch-MacBook-Pro-will-arrive-in-2021-according-to-rumors.png",
+        "ratings": 4
+    },
+    {
+        "id": 4,
+        "title": "Beats By Dre 2021",
+        "desc": "The latest product on the shelf. It has good specifications made for enjoyable user experience",
+        "price": 525000,
+        "image": "https://www.pngjoy.com/pngm/340/6360395_beats-by-dre-apple-beats-pro-beats-headphones.png",
+        "ratings": 8
+    }
+]
